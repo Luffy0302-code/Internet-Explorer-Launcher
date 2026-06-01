@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Internet Explorer Launcher</title>
+<hta:application id="app" border="thin" caption="yes" />
+<style>
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: 100px;
+    cursor: pointer;
+	Transform: translateX(50px);
+}
+button:hover {
+    background-color: #45a049;
+}
+</style>
+
+</head>
+<body>
+
+<button onclick="openPage()" style="border:none;background:none;cursor:pointer;">
+    <img src="Icon5.ico" width="128">
+</button>
+
+
+
+
+
+<script>
+function openPage() {
+    window.open("Page.htm", "Page", "width=200,height=200");
+}
+
+</script>
+
+</body>
+</html>
